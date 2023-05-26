@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, p, li, a, h2, ul, button {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #222;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
